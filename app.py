@@ -13,11 +13,8 @@ st.set_page_config(
     layout="wide"
 )
 
-<<<<<<< HEAD
+
 FILE_PATH = "data/superstore.csv"
-=======
-FILE_PATH = "data/Superstore.csv"
->>>>>>> b11c83a351967e12f012c06ae7a42e01b77e9a93
 os.makedirs("data", exist_ok=True)
 
 st.title(" Sales Forecasting and Business Intelligence Dashboard")
