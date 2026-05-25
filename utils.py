@@ -2,13 +2,11 @@ import pandas as pd
 import numpy as np
 from pathlib import Path
 
-
 DATA_PATH = Path("data/superstore.csv")
 
 
 def create_sample_data():
     dates = pd.date_range(start="2021-01-01", periods=36, freq="MS")
-
     categories = ["Furniture", "Office Supplies", "Technology"]
     regions = ["East", "West", "Central", "South"]
 
@@ -27,16 +25,10 @@ def create_sample_data():
                     "Quantity": np.random.randint(50, 300),
                     "Discount": round(np.random.uniform(0.01, 0.20), 2),
                     "Category": category,
-                    "Sub-Category": np.random.choice([
-                        "Phones", "Chairs", "Binders", "Storage", "Tables"
-                    ]),
-                    "Segment": np.random.choice([
-                        "Consumer", "Corporate", "Home Office"
-                    ]),
+                    "Sub-Category": np.random.choice(["Phones", "Chairs", "Binders", "Storage", "Tables"]),
+                    "Segment": np.random.choice(["Consumer", "Corporate", "Home Office"]),
                     "Region": region,
-                    "Product Name": np.random.choice([
-                        "Product A", "Product B", "Product C"
-                    ])
+                    "Product Name": np.random.choice(["Product A", "Product B", "Product C"])
                 })
 
     return pd.DataFrame(rows)
@@ -44,35 +36,44 @@ def create_sample_data():
 
 def load_data():
     if DATA_PATH.exists():
-        df = pd.read_csv(DATA_PATH, encoding="latin1")
+        try:
+            df = pd.read_csv(DATA_PATH, encoding="latin1")
+            df.columns = df.columns.str.strip()
+
+            if "Order Date" not in df.columns:
+                df = create_sample_data()
+                DATA_PATH.parent.mkdir(exist_ok=True)
+                df.to_csv(DATA_PATH, index=False)
+        except Exception:
+            df = create_sample_data()
     else:
         df = create_sample_data()
         DATA_PATH.parent.mkdir(exist_ok=True)
         df.to_csv(DATA_PATH, index=False)
 
+    df.columns = df.columns.str.strip()
+
     df["Order Date"] = pd.to_datetime(df["Order Date"], errors="coerce")
-    df = df.dropna(subset=["Order Date", "Sales"])
+    df = df.dropna(subset=["Order Date"])
 
-    numeric_cols = ["Sales", "Profit", "Quantity", "Discount"]
-
-    for col in numeric_cols:
+    for col in ["Sales", "Profit", "Quantity", "Discount"]:
         if col not in df.columns:
             df[col] = 0
-
         df[col] = pd.to_numeric(df[col], errors="coerce").fillna(0)
 
-    text_cols = ["Category", "Sub-Category", "Segment", "Region", "Product Name"]
-
-    for col in text_cols:
+    for col in ["Category", "Sub-Category", "Segment", "Region", "Product Name"]:
         if col not in df.columns:
             df[col] = "Unknown"
-
         df[col] = df[col].fillna("Unknown")
 
     return df
 
 
 def monthly_sales_data(df):
+    df = df.copy()
+    df["Order Date"] = pd.to_datetime(df["Order Date"], errors="coerce")
+    df = df.dropna(subset=["Order Date"])
+
     monthly = df.groupby(pd.Grouper(key="Order Date", freq="MS")).agg({
         "Sales": "sum",
         "Profit": "sum",
