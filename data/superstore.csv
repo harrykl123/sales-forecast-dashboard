@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Order Date,Sales,Profit,Quantity,Discount,Category,Sub-Category,Segment,Region,Product Name
 2021-01-01,17881,3087.66,71,0.16,Furniture,Phones,Home Office,East,Product A
 2021-01-01,56716,10147.23,72,0.12,Furniture,Storage,Consumer,West,Product C
@@ -431,3 +432,438 @@ Order Date,Sales,Profit,Quantity,Discount,Category,Sub-Category,Segment,Region,P
 2023-12-01,61644,14377.05,227,0.08,Technology,Chairs,Corporate,West,Product C
 2023-12-01,59605,8690.24,228,0.07,Technology,Chairs,Home Office,Central,Product A
 2023-12-01,13503,2270.22,282,0.03,Technology,Storage,Home Office,South,Product A
+=======
+Order Date,Sales,Profit,Quantity,Discount,Category,Sub-Category,Segment,Region,Product Name
+2021-01-01,17881,3087.66,71,0.16,Furniture,Phones,Home Office,East,Product A
+2021-01-01,56716,10147.23,72,0.12,Furniture,Storage,Consumer,West,Product C
+2021-01-01,63849,13736.95,279,0.07,Furniture,Phones,Home Office,Central,Product C
+2021-01-01,69708,7014.51,126,0.18,Furniture,Storage,Home Office,South,Product C
+2021-01-01,23834,3281.08,149,0.16,Office Supplies,Chairs,Corporate,East,Product B
+2021-01-01,35192,7853.61,66,0.14,Office Supplies,Chairs,Home Office,West,Product B
+2021-01-01,13801,3206.97,294,0.18,Office Supplies,Tables,Corporate,Central,Product C
+2021-01-01,77058,10815.84,292,0.13,Office Supplies,Tables,Consumer,South,Product A
+2021-01-01,71492,14410.42,175,0.05,Technology,Tables,Corporate,East,Product B
+2021-01-01,46756,11490.52,169,0.03,Technology,Binders,Corporate,West,Product B
+2021-01-01,32711,6177.43,68,0.05,Technology,Chairs,Home Office,Central,Product C
+2021-01-01,29226,5953.45,73,0.12,Technology,Storage,Corporate,South,Product C
+2021-02-01,22848,4967.97,161,0.11,Furniture,Binders,Corporate,East,Product A
+2021-02-01,70237,16317.68,100,0.14,Furniture,Storage,Home Office,West,Product C
+2021-02-01,57649,13228.41,128,0.06,Furniture,Storage,Consumer,Central,Product B
+2021-02-01,20661,4577.27,241,0.08,Furniture,Tables,Home Office,South,Product A
+2021-02-01,28214,4932.89,276,0.12,Office Supplies,Tables,Consumer,East,Product B
+2021-02-01,19290,1568.57,175,0.16,Office Supplies,Binders,Consumer,West,Product C
+2021-02-01,57779,8785.67,56,0.07,Office Supplies,Storage,Consumer,Central,Product A
+2021-02-01,19143,3690.01,242,0.01,Office Supplies,Storage,Home Office,South,Product A
+2021-02-01,60184,9231.62,64,0.13,Technology,Tables,Home Office,East,Product A
+2021-02-01,68421,17016.04,240,0.09,Technology,Tables,Consumer,West,Product A
+2021-02-01,42615,7982.55,246,0.04,Technology,Phones,Corporate,Central,Product B
+2021-02-01,29069,5964.58,61,0.17,Technology,Storage,Corporate,South,Product C
+2021-03-01,46533,9500.18,181,0.02,Furniture,Chairs,Corporate,East,Product A
+2021-03-01,77623,13019.99,62,0.15,Furniture,Tables,Consumer,West,Product C
+2021-03-01,28559,6667.22,71,0.04,Furniture,Chairs,Consumer,Central,Product A
+2021-03-01,42253,4963.87,59,0.1,Furniture,Tables,Consumer,South,Product A
+2021-03-01,10626,2561.8,109,0.03,Office Supplies,Tables,Consumer,East,Product B
+2021-03-01,67194,10892.23,60,0.04,Office Supplies,Storage,Corporate,West,Product A
+2021-03-01,46295,5838.4,252,0.16,Office Supplies,Chairs,Consumer,Central,Product C
+2021-03-01,41697,4308.29,221,0.15,Office Supplies,Phones,Consumer,South,Product A
+2021-03-01,62141,13144.57,112,0.02,Technology,Phones,Consumer,East,Product A
+2021-03-01,46309,4385.01,140,0.08,Technology,Phones,Home Office,West,Product B
+2021-03-01,27633,4907.59,214,0.05,Technology,Storage,Consumer,Central,Product A
+2021-03-01,40468,5627.65,228,0.1,Technology,Storage,Corporate,South,Product A
+2021-04-01,17674,2095.85,107,0.01,Furniture,Binders,Home Office,East,Product A
+2021-04-01,38608,7373.78,189,0.02,Furniture,Binders,Home Office,West,Product A
+2021-04-01,22277,5160.57,164,0.05,Furniture,Tables,Consumer,Central,Product A
+2021-04-01,18815,3235.68,52,0.19,Furniture,Storage,Home Office,South,Product C
+2021-04-01,53050,9988.43,175,0.07,Office Supplies,Tables,Corporate,East,Product B
+2021-04-01,38631,5278.31,203,0.12,Office Supplies,Phones,Corporate,West,Product A
+2021-04-01,54343,8314.19,299,0.06,Office Supplies,Storage,Consumer,Central,Product C
+2021-04-01,73701,10996.19,250,0.01,Office Supplies,Tables,Home Office,South,Product B
+2021-04-01,30920,5852.27,193,0.19,Technology,Chairs,Corporate,East,Product B
+2021-04-01,26128,3957.19,235,0.09,Technology,Chairs,Consumer,West,Product A
+2021-04-01,10312,1477.08,107,0.07,Technology,Binders,Home Office,Central,Product A
+2021-04-01,76103,8500.96,63,0.04,Technology,Storage,Home Office,South,Product B
+2021-05-01,20289,4542.41,283,0.14,Furniture,Chairs,Consumer,East,Product C
+2021-05-01,56852,6080.16,52,0.03,Furniture,Storage,Consumer,West,Product A
+2021-05-01,36394,5039.34,110,0.01,Furniture,Phones,Consumer,Central,Product A
+2021-05-01,60382,8914.26,232,0.09,Furniture,Tables,Home Office,South,Product A
+2021-05-01,10234,1088.26,132,0.17,Office Supplies,Chairs,Consumer,East,Product C
+2021-05-01,20145,2809.06,199,0.02,Office Supplies,Storage,Home Office,West,Product A
+2021-05-01,31648,7195.73,179,0.17,Office Supplies,Storage,Home Office,Central,Product A
+2021-05-01,57942,7901.64,76,0.16,Office Supplies,Storage,Consumer,South,Product C
+2021-05-01,25302,4646.74,247,0.07,Technology,Binders,Home Office,East,Product B
+2021-05-01,72547,13781.13,168,0.11,Technology,Tables,Consumer,West,Product A
+2021-05-01,70282,10260.98,58,0.06,Technology,Binders,Home Office,Central,Product B
+2021-05-01,38898,7291.9,70,0.03,Technology,Storage,Consumer,South,Product B
+2021-06-01,66642,12920.21,286,0.15,Furniture,Phones,Consumer,East,Product B
+2021-06-01,23118,5461.43,172,0.18,Furniture,Chairs,Home Office,West,Product C
+2021-06-01,48922,10622.08,84,0.13,Furniture,Chairs,Home Office,Central,Product A
+2021-06-01,67759,6670.12,247,0.2,Furniture,Chairs,Consumer,South,Product B
+2021-06-01,27744,5827.07,239,0.05,Office Supplies,Chairs,Home Office,East,Product C
+2021-06-01,73728,10818.59,274,0.09,Office Supplies,Storage,Consumer,West,Product C
+2021-06-01,17691,1814.32,280,0.08,Office Supplies,Storage,Corporate,Central,Product B
+2021-06-01,30112,6412.07,117,0.2,Office Supplies,Storage,Corporate,South,Product B
+2021-06-01,74313,13267.79,77,0.03,Technology,Tables,Home Office,East,Product B
+2021-06-01,79941,15957.4,181,0.04,Technology,Binders,Consumer,West,Product C
+2021-06-01,40217,6370.39,278,0.08,Technology,Tables,Consumer,Central,Product B
+2021-06-01,56804,6979.2,199,0.15,Technology,Phones,Consumer,South,Product C
+2021-07-01,77983,8558.33,242,0.07,Furniture,Tables,Consumer,East,Product B
+2021-07-01,37589,3930.5,286,0.07,Furniture,Phones,Consumer,West,Product B
+2021-07-01,43462,10713.59,169,0.07,Furniture,Tables,Home Office,Central,Product A
+2021-07-01,28988,6966.7,274,0.02,Furniture,Tables,Consumer,South,Product C
+2021-07-01,74550,9572.07,52,0.1,Office Supplies,Storage,Corporate,East,Product A
+2021-07-01,62754,8799.41,126,0.18,Office Supplies,Tables,Consumer,West,Product A
+2021-07-01,25386,4792.04,257,0.06,Office Supplies,Chairs,Consumer,Central,Product C
+2021-07-01,44536,10013.67,275,0.07,Office Supplies,Binders,Consumer,South,Product C
+2021-07-01,45029,9515.13,202,0.16,Technology,Binders,Consumer,East,Product A
+2021-07-01,22973,4970.36,133,0.07,Technology,Storage,Home Office,West,Product A
+2021-07-01,12377,1131.85,189,0.03,Technology,Binders,Corporate,Central,Product B
+2021-07-01,40169,7119.51,91,0.09,Technology,Storage,Corporate,South,Product C
+2021-08-01,59186,5267.17,94,0.13,Furniture,Binders,Consumer,East,Product A
+2021-08-01,32077,6430.46,224,0.04,Furniture,Storage,Consumer,West,Product C
+2021-08-01,74496,11893.22,108,0.18,Furniture,Binders,Corporate,Central,Product A
+2021-08-01,55604,9612.62,205,0.16,Furniture,Storage,Consumer,South,Product B
+2021-08-01,28056,4582.94,94,0.06,Office Supplies,Binders,Consumer,East,Product A
+2021-08-01,26001,3842.31,88,0.13,Office Supplies,Tables,Home Office,West,Product B
+2021-08-01,39099,6132.79,210,0.15,Office Supplies,Storage,Consumer,Central,Product B
+2021-08-01,53304,6624.82,115,0.17,Office Supplies,Phones,Corporate,South,Product B
+2021-08-01,53882,5160.2,292,0.04,Technology,Tables,Corporate,East,Product B
+2021-08-01,67000,10506.49,99,0.03,Technology,Binders,Corporate,West,Product A
+2021-08-01,41076,5197.39,203,0.2,Technology,Tables,Consumer,Central,Product A
+2021-08-01,41539,8259.34,190,0.08,Technology,Phones,Home Office,South,Product C
+2021-09-01,55414,13444.72,200,0.17,Furniture,Phones,Consumer,East,Product A
+2021-09-01,77172,10143.0,282,0.06,Furniture,Chairs,Consumer,West,Product A
+2021-09-01,29240,5329.62,96,0.18,Furniture,Tables,Consumer,Central,Product B
+2021-09-01,54748,11361.89,172,0.18,Furniture,Phones,Corporate,South,Product C
+2021-09-01,20301,4900.83,229,0.19,Office Supplies,Chairs,Consumer,East,Product C
+2021-09-01,52228,6011.05,77,0.13,Office Supplies,Binders,Consumer,West,Product C
+2021-09-01,75319,16196.71,162,0.08,Office Supplies,Binders,Home Office,Central,Product A
+2021-09-01,67748,9266.96,248,0.07,Office Supplies,Storage,Corporate,South,Product C
+2021-09-01,28122,2889.84,73,0.06,Technology,Phones,Home Office,East,Product B
+2021-09-01,13107,3112.5,195,0.01,Technology,Chairs,Corporate,West,Product B
+2021-09-01,69448,6099.35,201,0.03,Technology,Phones,Consumer,Central,Product B
+2021-09-01,62818,13367.15,164,0.14,Technology,Tables,Home Office,South,Product C
+2021-10-01,78108,10723.38,272,0.03,Furniture,Tables,Consumer,East,Product C
+2021-10-01,35321,8328.87,60,0.02,Furniture,Storage,Home Office,West,Product A
+2021-10-01,33717,5732.58,165,0.16,Furniture,Storage,Consumer,Central,Product A
+2021-10-01,35300,4216.17,242,0.18,Furniture,Storage,Consumer,South,Product B
+2021-10-01,78671,17589.48,267,0.04,Office Supplies,Binders,Home Office,East,Product A
+2021-10-01,66840,14932.62,144,0.13,Office Supplies,Chairs,Corporate,West,Product B
+2021-10-01,54435,8639.92,269,0.2,Office Supplies,Binders,Consumer,Central,Product B
+2021-10-01,40963,8032.26,137,0.14,Office Supplies,Tables,Consumer,South,Product C
+2021-10-01,69984,17280.55,254,0.15,Technology,Phones,Home Office,East,Product A
+2021-10-01,65724,9080.63,203,0.03,Technology,Storage,Home Office,West,Product C
+2021-10-01,32717,3758.83,257,0.16,Technology,Chairs,Consumer,Central,Product A
+2021-10-01,70368,9484.31,171,0.07,Technology,Phones,Consumer,South,Product B
+2021-11-01,31821,3417.65,103,0.04,Furniture,Tables,Consumer,East,Product A
+2021-11-01,77681,11495.29,287,0.13,Furniture,Binders,Home Office,West,Product C
+2021-11-01,62567,15434.48,119,0.01,Furniture,Storage,Corporate,Central,Product C
+2021-11-01,51900,9459.12,164,0.13,Furniture,Phones,Consumer,South,Product C
+2021-11-01,52397,8059.2,67,0.01,Office Supplies,Phones,Consumer,East,Product A
+2021-11-01,15820,3471.1,179,0.07,Office Supplies,Binders,Home Office,West,Product C
+2021-11-01,20076,1746.8,144,0.17,Office Supplies,Tables,Consumer,Central,Product B
+2021-11-01,78112,9875.79,172,0.08,Office Supplies,Phones,Home Office,South,Product A
+2021-11-01,33298,5802.81,94,0.15,Technology,Phones,Corporate,East,Product A
+2021-11-01,60828,6941.94,110,0.08,Technology,Phones,Consumer,West,Product A
+2021-11-01,50429,11807.18,58,0.14,Technology,Storage,Home Office,Central,Product B
+2021-11-01,79204,16405.79,184,0.03,Technology,Storage,Corporate,South,Product C
+2021-12-01,55808,11093.19,107,0.03,Furniture,Phones,Corporate,East,Product A
+2021-12-01,78012,17103.78,240,0.02,Furniture,Chairs,Corporate,West,Product B
+2021-12-01,47896,6929.49,286,0.1,Furniture,Tables,Home Office,Central,Product C
+2021-12-01,25458,2455.52,298,0.16,Furniture,Chairs,Corporate,South,Product A
+2021-12-01,42373,5202.21,76,0.15,Office Supplies,Tables,Corporate,East,Product B
+2021-12-01,37765,3828.67,164,0.07,Office Supplies,Storage,Home Office,West,Product A
+2021-12-01,37702,8638.56,297,0.17,Office Supplies,Phones,Home Office,Central,Product C
+2021-12-01,79348,6670.29,289,0.1,Office Supplies,Tables,Corporate,South,Product A
+2021-12-01,15446,1918.05,58,0.19,Technology,Chairs,Corporate,East,Product A
+2021-12-01,34338,7274.99,191,0.13,Technology,Phones,Home Office,West,Product C
+2021-12-01,74825,14786.53,210,0.03,Technology,Storage,Consumer,Central,Product B
+2021-12-01,68124,6644.97,102,0.17,Technology,Tables,Consumer,South,Product A
+2022-01-01,67747,14634.22,101,0.02,Furniture,Tables,Corporate,East,Product A
+2022-01-01,45955,9948.4,88,0.03,Furniture,Binders,Consumer,West,Product B
+2022-01-01,61582,10368.37,188,0.01,Furniture,Tables,Home Office,Central,Product B
+2022-01-01,28633,6646.03,274,0.12,Furniture,Storage,Consumer,South,Product A
+2022-01-01,60718,12650.45,174,0.09,Office Supplies,Chairs,Corporate,East,Product A
+2022-01-01,21477,4578.89,287,0.11,Office Supplies,Binders,Consumer,West,Product C
+2022-01-01,35608,3292.94,149,0.11,Office Supplies,Binders,Home Office,Central,Product C
+2022-01-01,59083,11730.42,153,0.12,Office Supplies,Phones,Corporate,South,Product A
+2022-01-01,13948,2393.18,157,0.12,Technology,Storage,Corporate,East,Product B
+2022-01-01,61080,8682.85,224,0.2,Technology,Binders,Home Office,West,Product C
+2022-01-01,62834,11134.57,157,0.11,Technology,Phones,Home Office,Central,Product B
+2022-01-01,79271,12040.3,204,0.08,Technology,Binders,Home Office,South,Product B
+2022-02-01,24247,2811.87,121,0.07,Furniture,Tables,Home Office,East,Product A
+2022-02-01,40240,9324.81,112,0.04,Furniture,Tables,Corporate,West,Product A
+2022-02-01,17068,3958.8,169,0.19,Furniture,Tables,Corporate,Central,Product A
+2022-02-01,79060,15498.87,90,0.02,Furniture,Storage,Consumer,South,Product C
+2022-02-01,67516,9703.42,113,0.14,Office Supplies,Tables,Home Office,East,Product A
+2022-02-01,79946,10811.96,143,0.09,Office Supplies,Tables,Home Office,West,Product A
+2022-02-01,39977,5684.24,267,0.1,Office Supplies,Tables,Corporate,Central,Product C
+2022-02-01,48826,11267.26,287,0.14,Office Supplies,Tables,Corporate,South,Product C
+2022-02-01,27288,3883.57,218,0.18,Technology,Phones,Corporate,East,Product C
+2022-02-01,72743,13513.1,149,0.08,Technology,Phones,Consumer,West,Product C
+2022-02-01,22944,5333.89,281,0.17,Technology,Storage,Home Office,Central,Product A
+2022-02-01,11077,1484.37,263,0.04,Technology,Storage,Corporate,South,Product A
+2022-03-01,75749,6677.33,212,0.1,Furniture,Tables,Home Office,East,Product B
+2022-03-01,37184,4498.06,202,0.12,Furniture,Tables,Consumer,West,Product B
+2022-03-01,37805,5578.7,293,0.07,Furniture,Storage,Corporate,Central,Product C
+2022-03-01,13611,2586.64,287,0.17,Furniture,Tables,Consumer,South,Product A
+2022-03-01,76074,9355.4,55,0.02,Office Supplies,Chairs,Consumer,East,Product B
+2022-03-01,36533,5847.95,55,0.15,Office Supplies,Phones,Corporate,West,Product C
+2022-03-01,18848,1522.37,249,0.04,Office Supplies,Binders,Consumer,Central,Product A
+2022-03-01,45078,10509.99,247,0.16,Office Supplies,Phones,Consumer,South,Product A
+2022-03-01,75289,13731.88,189,0.09,Technology,Binders,Home Office,East,Product B
+2022-03-01,30213,7321.69,270,0.04,Technology,Storage,Consumer,West,Product A
+2022-03-01,64309,8562.09,143,0.14,Technology,Phones,Consumer,Central,Product A
+2022-03-01,68272,10608.34,72,0.11,Technology,Storage,Corporate,South,Product B
+2022-04-01,34129,3299.19,157,0.09,Furniture,Chairs,Consumer,East,Product C
+2022-04-01,20335,2509.47,164,0.18,Furniture,Phones,Consumer,West,Product C
+2022-04-01,47504,10271.06,220,0.12,Furniture,Chairs,Corporate,Central,Product C
+2022-04-01,79579,18417.71,293,0.16,Furniture,Tables,Corporate,South,Product C
+2022-04-01,36527,7583.66,166,0.13,Office Supplies,Phones,Consumer,East,Product A
+2022-04-01,22683,5187.55,223,0.02,Office Supplies,Binders,Home Office,West,Product C
+2022-04-01,27701,2551.92,294,0.06,Office Supplies,Binders,Home Office,Central,Product B
+2022-04-01,31236,5753.51,135,0.13,Office Supplies,Chairs,Home Office,South,Product B
+2022-04-01,44208,9044.03,290,0.15,Technology,Storage,Home Office,East,Product A
+2022-04-01,55529,11813.71,148,0.17,Technology,Storage,Corporate,West,Product B
+2022-04-01,33285,3350.48,135,0.09,Technology,Chairs,Home Office,Central,Product A
+2022-04-01,54038,7833.99,140,0.1,Technology,Chairs,Corporate,South,Product A
+2022-05-01,14420,1677.19,181,0.11,Furniture,Storage,Home Office,East,Product A
+2022-05-01,22962,2158.97,67,0.12,Furniture,Chairs,Consumer,West,Product A
+2022-05-01,78692,8702.24,84,0.18,Furniture,Phones,Consumer,Central,Product C
+2022-05-01,52292,11174.35,94,0.11,Furniture,Phones,Corporate,South,Product C
+2022-05-01,66625,12914.96,183,0.17,Office Supplies,Storage,Corporate,East,Product A
+2022-05-01,32098,7592.77,212,0.08,Office Supplies,Phones,Home Office,West,Product B
+2022-05-01,53292,8319.56,160,0.2,Office Supplies,Chairs,Home Office,Central,Product B
+2022-05-01,69822,10826.46,243,0.15,Office Supplies,Storage,Corporate,South,Product A
+2022-05-01,27319,5051.63,242,0.03,Technology,Binders,Consumer,East,Product A
+2022-05-01,49089,7269.91,215,0.03,Technology,Chairs,Corporate,West,Product A
+2022-05-01,51867,7569.56,53,0.11,Technology,Phones,Home Office,Central,Product C
+2022-05-01,45536,5254.24,167,0.17,Technology,Binders,Consumer,South,Product B
+2022-06-01,59452,5055.89,261,0.15,Furniture,Tables,Consumer,East,Product C
+2022-06-01,38399,3310.73,90,0.02,Furniture,Tables,Home Office,West,Product B
+2022-06-01,43483,5964.22,108,0.19,Furniture,Storage,Consumer,Central,Product B
+2022-06-01,49734,9314.68,185,0.01,Furniture,Phones,Corporate,South,Product B
+2022-06-01,14171,1908.35,205,0.14,Office Supplies,Tables,Home Office,East,Product C
+2022-06-01,68397,7419.44,131,0.11,Office Supplies,Chairs,Home Office,West,Product C
+2022-06-01,18147,2073.99,139,0.05,Office Supplies,Phones,Consumer,Central,Product A
+2022-06-01,72367,13002.4,67,0.18,Office Supplies,Tables,Corporate,South,Product A
+2022-06-01,64640,9330.55,194,0.04,Technology,Tables,Corporate,East,Product A
+2022-06-01,43949,9041.49,263,0.13,Technology,Phones,Corporate,West,Product A
+2022-06-01,47270,5904.35,102,0.04,Technology,Binders,Corporate,Central,Product C
+2022-06-01,12866,1885.1,285,0.2,Technology,Chairs,Home Office,South,Product C
+2022-07-01,59071,12823.96,92,0.11,Furniture,Binders,Corporate,East,Product A
+2022-07-01,73125,15411.35,173,0.12,Furniture,Binders,Home Office,West,Product C
+2022-07-01,46034,5156.46,53,0.13,Furniture,Storage,Consumer,Central,Product B
+2022-07-01,73844,9779.51,89,0.09,Furniture,Storage,Consumer,South,Product A
+2022-07-01,47725,5052.84,71,0.03,Office Supplies,Tables,Consumer,East,Product A
+2022-07-01,51825,12682.09,79,0.13,Office Supplies,Phones,Home Office,West,Product A
+2022-07-01,16780,2969.72,174,0.08,Office Supplies,Binders,Consumer,Central,Product C
+2022-07-01,24666,5279.3,95,0.05,Office Supplies,Phones,Consumer,South,Product C
+2022-07-01,50020,9124.95,59,0.19,Technology,Storage,Home Office,East,Product A
+2022-07-01,68703,14779.83,192,0.19,Technology,Chairs,Corporate,West,Product A
+2022-07-01,53777,6414.03,150,0.02,Technology,Storage,Consumer,Central,Product A
+2022-07-01,68547,11216.67,257,0.14,Technology,Phones,Corporate,South,Product A
+2022-08-01,45001,11196.29,122,0.04,Furniture,Binders,Corporate,East,Product A
+2022-08-01,24085,3868.17,150,0.07,Furniture,Tables,Home Office,West,Product A
+2022-08-01,15246,1914.41,78,0.18,Furniture,Binders,Home Office,Central,Product C
+2022-08-01,74495,12798.79,224,0.07,Furniture,Binders,Corporate,South,Product A
+2022-08-01,18393,2958.56,51,0.05,Office Supplies,Binders,Home Office,East,Product A
+2022-08-01,31039,3872.41,195,0.07,Office Supplies,Tables,Corporate,West,Product B
+2022-08-01,27472,4128.14,101,0.02,Office Supplies,Phones,Consumer,Central,Product A
+2022-08-01,23152,5417.33,291,0.12,Office Supplies,Storage,Consumer,South,Product C
+2022-08-01,66076,9280.06,283,0.18,Technology,Tables,Home Office,East,Product C
+2022-08-01,40836,5051.6,290,0.1,Technology,Tables,Consumer,West,Product C
+2022-08-01,26701,2281.74,239,0.16,Technology,Chairs,Consumer,Central,Product C
+2022-08-01,51324,5047.31,260,0.08,Technology,Storage,Consumer,South,Product B
+2022-09-01,25820,4436.36,162,0.1,Furniture,Chairs,Corporate,East,Product B
+2022-09-01,43448,3973.33,279,0.03,Furniture,Storage,Consumer,West,Product B
+2022-09-01,46122,7494.39,169,0.05,Furniture,Binders,Consumer,Central,Product C
+2022-09-01,32648,4713.41,249,0.14,Furniture,Storage,Corporate,South,Product C
+2022-09-01,52181,5099.18,91,0.19,Office Supplies,Binders,Consumer,East,Product C
+2022-09-01,56066,9583.36,297,0.15,Office Supplies,Chairs,Home Office,West,Product C
+2022-09-01,55398,9364.55,107,0.05,Office Supplies,Tables,Corporate,Central,Product B
+2022-09-01,36794,5958.43,176,0.1,Office Supplies,Storage,Corporate,South,Product C
+2022-09-01,48829,9166.95,54,0.13,Technology,Storage,Home Office,East,Product A
+2022-09-01,45207,10724.57,89,0.11,Technology,Tables,Corporate,West,Product C
+2022-09-01,26844,4469.71,60,0.06,Technology,Chairs,Corporate,Central,Product A
+2022-09-01,57144,10014.75,285,0.19,Technology,Tables,Home Office,South,Product C
+2022-10-01,48098,4078.29,127,0.19,Furniture,Binders,Corporate,East,Product C
+2022-10-01,76778,18079.68,196,0.07,Furniture,Storage,Consumer,West,Product B
+2022-10-01,65248,12834.53,180,0.04,Furniture,Tables,Corporate,Central,Product A
+2022-10-01,60258,12543.48,248,0.09,Furniture,Binders,Consumer,South,Product A
+2022-10-01,43298,8217.21,50,0.05,Office Supplies,Binders,Corporate,East,Product A
+2022-10-01,32388,4643.53,285,0.19,Office Supplies,Chairs,Home Office,West,Product A
+2022-10-01,78948,12338.62,220,0.02,Office Supplies,Phones,Home Office,Central,Product C
+2022-10-01,43979,9876.29,240,0.04,Office Supplies,Binders,Corporate,South,Product C
+2022-10-01,20634,2362.56,86,0.17,Technology,Chairs,Consumer,East,Product C
+2022-10-01,44013,6817.04,92,0.08,Technology,Chairs,Corporate,West,Product A
+2022-10-01,45625,5898.45,255,0.12,Technology,Storage,Consumer,Central,Product C
+2022-10-01,26793,2665.7,211,0.06,Technology,Chairs,Corporate,South,Product A
+2022-11-01,58295,8697.69,279,0.12,Furniture,Phones,Consumer,East,Product C
+2022-11-01,21249,2751.87,63,0.11,Furniture,Chairs,Corporate,West,Product B
+2022-11-01,52660,11398.2,141,0.02,Furniture,Chairs,Corporate,Central,Product B
+2022-11-01,46999,9459.69,137,0.05,Furniture,Storage,Corporate,South,Product A
+2022-11-01,19822,2373.43,82,0.12,Office Supplies,Chairs,Home Office,East,Product A
+2022-11-01,18789,2713.0,226,0.16,Office Supplies,Phones,Corporate,West,Product A
+2022-11-01,17041,3253.2,199,0.11,Office Supplies,Phones,Corporate,Central,Product B
+2022-11-01,13528,1204.23,73,0.08,Office Supplies,Tables,Corporate,South,Product B
+2022-11-01,63791,5773.22,229,0.01,Technology,Binders,Home Office,East,Product C
+2022-11-01,55608,7962.94,127,0.18,Technology,Phones,Home Office,West,Product A
+2022-11-01,20198,4548.59,129,0.05,Technology,Chairs,Home Office,Central,Product C
+2022-11-01,10677,1264.13,206,0.19,Technology,Storage,Corporate,South,Product A
+2022-12-01,39925,4481.47,258,0.03,Furniture,Storage,Consumer,East,Product C
+2022-12-01,33443,7175.86,143,0.08,Furniture,Binders,Consumer,West,Product B
+2022-12-01,65895,7219.06,299,0.04,Furniture,Storage,Corporate,Central,Product B
+2022-12-01,69389,6807.14,246,0.12,Furniture,Binders,Corporate,South,Product B
+2022-12-01,61428,9308.25,99,0.09,Office Supplies,Tables,Corporate,East,Product A
+2022-12-01,61278,4976.44,236,0.13,Office Supplies,Phones,Corporate,West,Product B
+2022-12-01,75871,9237.29,135,0.19,Office Supplies,Phones,Home Office,Central,Product C
+2022-12-01,15881,3357.79,204,0.06,Office Supplies,Tables,Consumer,South,Product A
+2022-12-01,50923,10115.7,199,0.06,Technology,Binders,Home Office,East,Product A
+2022-12-01,17395,3497.73,147,0.05,Technology,Binders,Corporate,West,Product B
+2022-12-01,17747,3922.61,261,0.06,Technology,Storage,Consumer,Central,Product C
+2022-12-01,51852,11857.97,173,0.03,Technology,Chairs,Corporate,South,Product B
+2023-01-01,68196,16202.14,273,0.11,Furniture,Chairs,Consumer,East,Product A
+2023-01-01,70588,10937.14,146,0.08,Furniture,Tables,Consumer,West,Product C
+2023-01-01,33767,5734.03,85,0.13,Furniture,Binders,Home Office,Central,Product A
+2023-01-01,57641,6886.26,123,0.08,Furniture,Storage,Consumer,South,Product A
+2023-01-01,33403,7359.49,243,0.19,Office Supplies,Tables,Consumer,East,Product A
+2023-01-01,64262,7250.28,50,0.05,Office Supplies,Phones,Corporate,West,Product B
+2023-01-01,29346,7187.64,94,0.07,Office Supplies,Tables,Consumer,Central,Product C
+2023-01-01,30104,6065.14,157,0.16,Office Supplies,Storage,Corporate,South,Product A
+2023-01-01,31609,5709.38,294,0.02,Technology,Binders,Consumer,East,Product C
+2023-01-01,40927,8062.88,82,0.18,Technology,Chairs,Consumer,West,Product A
+2023-01-01,66067,14385.11,269,0.16,Technology,Binders,Corporate,Central,Product C
+2023-01-01,56292,5458.83,291,0.11,Technology,Binders,Consumer,South,Product A
+2023-02-01,72078,11212.03,255,0.16,Furniture,Binders,Consumer,East,Product C
+2023-02-01,62952,7844.91,250,0.17,Furniture,Storage,Consumer,West,Product A
+2023-02-01,14299,3001.46,147,0.13,Furniture,Binders,Corporate,Central,Product A
+2023-02-01,78248,16817.19,84,0.06,Furniture,Chairs,Consumer,South,Product A
+2023-02-01,14546,1548.6,177,0.12,Office Supplies,Storage,Corporate,East,Product A
+2023-02-01,41707,3879.35,95,0.2,Office Supplies,Chairs,Corporate,West,Product A
+2023-02-01,13890,1878.86,283,0.03,Office Supplies,Tables,Corporate,Central,Product C
+2023-02-01,65643,11033.45,63,0.01,Office Supplies,Binders,Corporate,South,Product C
+2023-02-01,16209,3740.31,124,0.16,Technology,Storage,Home Office,East,Product C
+2023-02-01,12492,3049.23,278,0.01,Technology,Chairs,Home Office,West,Product A
+2023-02-01,72050,9190.0,101,0.13,Technology,Chairs,Consumer,Central,Product B
+2023-02-01,10720,2449.6,192,0.14,Technology,Binders,Consumer,South,Product A
+2023-03-01,68034,7032.63,223,0.18,Furniture,Chairs,Home Office,East,Product C
+2023-03-01,59494,12888.4,233,0.06,Furniture,Chairs,Consumer,West,Product A
+2023-03-01,46704,4340.62,267,0.06,Furniture,Tables,Home Office,Central,Product A
+2023-03-01,15187,2236.74,82,0.03,Furniture,Storage,Corporate,South,Product A
+2023-03-01,20055,4083.34,152,0.02,Office Supplies,Phones,Corporate,East,Product C
+2023-03-01,28549,2574.45,79,0.02,Office Supplies,Storage,Home Office,West,Product A
+2023-03-01,63929,6563.04,288,0.08,Office Supplies,Phones,Home Office,Central,Product B
+2023-03-01,47291,5130.78,52,0.05,Office Supplies,Tables,Consumer,South,Product B
+2023-03-01,40135,3443.97,120,0.13,Technology,Tables,Corporate,East,Product C
+2023-03-01,53257,6274.53,170,0.06,Technology,Binders,Home Office,West,Product C
+2023-03-01,39782,4938.77,109,0.02,Technology,Storage,Home Office,Central,Product B
+2023-03-01,57658,12367.73,249,0.14,Technology,Storage,Corporate,South,Product C
+2023-04-01,71164,9891.72,148,0.04,Furniture,Storage,Home Office,East,Product A
+2023-04-01,65867,11374.25,212,0.08,Furniture,Storage,Home Office,West,Product C
+2023-04-01,38102,6003.11,213,0.07,Furniture,Binders,Home Office,Central,Product A
+2023-04-01,48495,4652.82,121,0.08,Furniture,Tables,Corporate,South,Product C
+2023-04-01,61551,13315.26,72,0.05,Office Supplies,Binders,Home Office,East,Product B
+2023-04-01,76611,17667.05,89,0.01,Office Supplies,Storage,Home Office,West,Product A
+2023-04-01,26931,4749.56,288,0.03,Office Supplies,Tables,Corporate,Central,Product B
+2023-04-01,37287,3653.61,155,0.04,Office Supplies,Binders,Home Office,South,Product A
+2023-04-01,52697,9786.04,227,0.2,Technology,Chairs,Consumer,East,Product B
+2023-04-01,72186,17844.19,253,0.18,Technology,Tables,Home Office,West,Product B
+2023-04-01,28157,4242.77,181,0.16,Technology,Tables,Consumer,Central,Product A
+2023-04-01,73463,16215.5,248,0.09,Technology,Chairs,Consumer,South,Product C
+2023-05-01,16199,2243.59,210,0.04,Furniture,Phones,Home Office,East,Product A
+2023-05-01,22035,2767.84,154,0.17,Furniture,Storage,Home Office,West,Product B
+2023-05-01,21374,3859.5,278,0.08,Furniture,Storage,Home Office,Central,Product C
+2023-05-01,70180,16997.77,197,0.13,Furniture,Tables,Corporate,South,Product B
+2023-05-01,20546,3672.24,180,0.01,Office Supplies,Binders,Corporate,East,Product A
+2023-05-01,65372,7566.93,170,0.06,Office Supplies,Storage,Corporate,West,Product C
+2023-05-01,22893,3762.24,72,0.08,Office Supplies,Storage,Home Office,Central,Product B
+2023-05-01,20627,3173.6,114,0.05,Office Supplies,Phones,Consumer,South,Product B
+2023-05-01,35295,6664.3,100,0.1,Technology,Binders,Consumer,East,Product C
+2023-05-01,30867,5416.37,50,0.05,Technology,Phones,Home Office,West,Product A
+2023-05-01,39737,9833.73,287,0.07,Technology,Storage,Home Office,Central,Product C
+2023-05-01,38677,4854.82,57,0.01,Technology,Chairs,Corporate,South,Product C
+2023-06-01,48707,7883.46,206,0.06,Furniture,Binders,Home Office,East,Product C
+2023-06-01,35429,5316.47,242,0.08,Furniture,Chairs,Consumer,West,Product A
+2023-06-01,54237,12946.73,272,0.01,Furniture,Tables,Consumer,Central,Product C
+2023-06-01,25257,4536.86,222,0.03,Furniture,Phones,Home Office,South,Product C
+2023-06-01,16318,4061.48,51,0.12,Office Supplies,Tables,Consumer,East,Product A
+2023-06-01,63659,12517.19,228,0.08,Office Supplies,Chairs,Consumer,West,Product C
+2023-06-01,73936,16516.89,76,0.13,Office Supplies,Binders,Home Office,Central,Product C
+2023-06-01,55352,13808.45,90,0.05,Office Supplies,Phones,Home Office,South,Product B
+2023-06-01,53200,6791.47,86,0.18,Technology,Storage,Corporate,East,Product C
+2023-06-01,10689,2512.97,58,0.02,Technology,Storage,Home Office,West,Product A
+2023-06-01,68860,14810.54,58,0.09,Technology,Binders,Consumer,Central,Product C
+2023-06-01,26175,5056.61,213,0.1,Technology,Tables,Home Office,South,Product C
+2023-07-01,67958,9738.06,285,0.14,Furniture,Binders,Corporate,East,Product B
+2023-07-01,15166,2849.95,120,0.18,Furniture,Storage,Home Office,West,Product A
+2023-07-01,56493,11642.92,268,0.15,Furniture,Binders,Corporate,Central,Product C
+2023-07-01,46867,3856.48,92,0.19,Furniture,Chairs,Corporate,South,Product C
+2023-07-01,64653,14412.67,246,0.09,Office Supplies,Binders,Consumer,East,Product B
+2023-07-01,19211,3011.94,155,0.04,Office Supplies,Phones,Consumer,West,Product B
+2023-07-01,22485,2957.53,199,0.13,Office Supplies,Tables,Consumer,Central,Product C
+2023-07-01,77948,12856.6,136,0.19,Office Supplies,Chairs,Home Office,South,Product A
+2023-07-01,47687,7130.69,172,0.02,Technology,Binders,Consumer,East,Product C
+2023-07-01,76679,18604.57,80,0.06,Technology,Chairs,Consumer,West,Product B
+2023-07-01,38338,4999.3,286,0.16,Technology,Tables,Home Office,Central,Product B
+2023-07-01,39054,7049.2,237,0.2,Technology,Chairs,Home Office,South,Product A
+2023-08-01,25722,3435.68,99,0.17,Furniture,Chairs,Home Office,East,Product A
+2023-08-01,56102,13931.32,154,0.09,Furniture,Chairs,Consumer,West,Product C
+2023-08-01,39309,7595.85,163,0.08,Furniture,Chairs,Consumer,Central,Product C
+2023-08-01,75810,7848.26,57,0.04,Furniture,Binders,Consumer,South,Product A
+2023-08-01,63285,13182.85,68,0.13,Office Supplies,Phones,Corporate,East,Product B
+2023-08-01,73249,18115.43,287,0.05,Office Supplies,Phones,Consumer,West,Product C
+2023-08-01,56625,7692.78,219,0.16,Office Supplies,Binders,Consumer,Central,Product C
+2023-08-01,54502,12394.44,289,0.18,Office Supplies,Chairs,Corporate,South,Product C
+2023-08-01,67886,12705.73,97,0.1,Technology,Binders,Consumer,East,Product A
+2023-08-01,58647,8936.82,296,0.06,Technology,Storage,Corporate,West,Product B
+2023-08-01,70998,10863.89,267,0.14,Technology,Storage,Consumer,Central,Product C
+2023-08-01,12736,2051.52,69,0.15,Technology,Phones,Home Office,South,Product C
+2023-09-01,55601,6695.41,217,0.19,Furniture,Phones,Home Office,East,Product B
+2023-09-01,39190,9216.69,95,0.06,Furniture,Storage,Corporate,West,Product B
+2023-09-01,46748,9137.86,103,0.09,Furniture,Chairs,Home Office,Central,Product B
+2023-09-01,55140,11560.37,58,0.2,Furniture,Phones,Home Office,South,Product A
+2023-09-01,42850,4946.39,51,0.09,Office Supplies,Chairs,Corporate,East,Product C
+2023-09-01,57435,6791.11,181,0.09,Office Supplies,Binders,Home Office,West,Product C
+2023-09-01,75118,15096.97,141,0.18,Office Supplies,Binders,Corporate,Central,Product C
+2023-09-01,73781,7149.69,278,0.01,Office Supplies,Storage,Corporate,South,Product A
+2023-09-01,51068,9219.73,251,0.16,Technology,Binders,Consumer,East,Product A
+2023-09-01,28757,2836.48,289,0.16,Technology,Tables,Home Office,West,Product A
+2023-09-01,15026,1205.72,294,0.08,Technology,Storage,Home Office,Central,Product C
+2023-09-01,33329,6263.56,78,0.06,Technology,Tables,Corporate,South,Product A
+2023-10-01,30207,4164.89,72,0.11,Furniture,Chairs,Consumer,East,Product C
+2023-10-01,69559,12960.33,134,0.12,Furniture,Phones,Corporate,West,Product B
+2023-10-01,48004,6061.19,218,0.18,Furniture,Tables,Consumer,Central,Product B
+2023-10-01,16403,3775.89,111,0.11,Furniture,Storage,Home Office,South,Product A
+2023-10-01,34298,4484.43,271,0.11,Office Supplies,Phones,Corporate,East,Product B
+2023-10-01,58960,13579.51,109,0.05,Office Supplies,Binders,Consumer,West,Product C
+2023-10-01,14231,2076.9,268,0.15,Office Supplies,Phones,Corporate,Central,Product B
+2023-10-01,62424,6803.0,220,0.06,Office Supplies,Tables,Consumer,South,Product C
+2023-10-01,10825,2132.27,244,0.12,Technology,Binders,Consumer,East,Product B
+2023-10-01,72816,16996.8,270,0.14,Technology,Chairs,Home Office,West,Product C
+2023-10-01,41043,9071.5,259,0.1,Technology,Binders,Corporate,Central,Product A
+2023-10-01,74260,17882.8,277,0.04,Technology,Chairs,Home Office,South,Product A
+2023-11-01,11926,1077.09,291,0.07,Furniture,Tables,Consumer,East,Product C
+2023-11-01,14327,1233.04,183,0.16,Furniture,Chairs,Corporate,West,Product C
+2023-11-01,32216,7252.65,75,0.18,Furniture,Chairs,Corporate,Central,Product C
+2023-11-01,59627,10090.82,188,0.07,Furniture,Phones,Corporate,South,Product B
+2023-11-01,68481,13013.72,169,0.03,Office Supplies,Phones,Consumer,East,Product A
+2023-11-01,23703,2058.71,293,0.2,Office Supplies,Binders,Home Office,West,Product A
+2023-11-01,74213,8605.55,156,0.07,Office Supplies,Storage,Consumer,Central,Product A
+2023-11-01,66471,7292.48,95,0.09,Office Supplies,Storage,Corporate,South,Product A
+2023-11-01,32676,3318.78,116,0.12,Technology,Chairs,Consumer,East,Product B
+2023-11-01,52864,5897.29,235,0.19,Technology,Tables,Home Office,West,Product C
+2023-11-01,66276,6839.17,176,0.16,Technology,Tables,Home Office,Central,Product C
+2023-11-01,23664,5110.94,63,0.12,Technology,Storage,Consumer,South,Product B
+2023-12-01,13570,2406.38,53,0.18,Furniture,Storage,Home Office,East,Product B
+2023-12-01,77001,10998.59,168,0.09,Furniture,Tables,Corporate,West,Product C
+2023-12-01,57241,7446.83,216,0.15,Furniture,Binders,Home Office,Central,Product C
+2023-12-01,57744,9544.98,161,0.06,Furniture,Binders,Home Office,South,Product C
+2023-12-01,46283,4665.75,79,0.15,Office Supplies,Tables,Home Office,East,Product C
+2023-12-01,63087,11602.32,113,0.09,Office Supplies,Tables,Home Office,West,Product B
+2023-12-01,39437,4174.67,120,0.12,Office Supplies,Storage,Corporate,Central,Product A
+2023-12-01,23668,5716.24,237,0.11,Office Supplies,Tables,Home Office,South,Product C
+2023-12-01,60367,10624.45,289,0.02,Technology,Phones,Home Office,East,Product A
+2023-12-01,61644,14377.05,227,0.08,Technology,Chairs,Corporate,West,Product C
+2023-12-01,59605,8690.24,228,0.07,Technology,Chairs,Home Office,Central,Product A
+2023-12-01,13503,2270.22,282,0.03,Technology,Storage,Home Office,South,Product A
+>>>>>>> b11c83a351967e12f012c06ae7a42e01b77e9a93

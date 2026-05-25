@@ -9,20 +9,24 @@ import os
 
 st.set_page_config(
     page_title="Sales Forecasting Dashboard",
-    page_icon="📈",
+    page_icon="",
     layout="wide"
 )
 
+<<<<<<< HEAD
 FILE_PATH = "data/superstore.csv"
+=======
+FILE_PATH = "data/Superstore.csv"
+>>>>>>> b11c83a351967e12f012c06ae7a42e01b77e9a93
 os.makedirs("data", exist_ok=True)
 
-st.title("📈 Sales Forecasting and Business Intelligence Dashboard")
+st.title(" Sales Forecasting and Business Intelligence Dashboard")
 st.write("Predict future sales and analyze business performance using Machine Learning.")
 
 df = load_data()
 
 st.markdown("---")
-st.header("📝 Editable Sales Data")
+st.header(" Editable Sales Data")
 
 edited_df = st.data_editor(
     df,
@@ -31,9 +35,9 @@ edited_df = st.data_editor(
     key="sales_editor"
 )
 
-if st.button("💾 Save Changes"):
+if st.button(" Save Changes"):
     edited_df.to_csv(FILE_PATH, index=False)
-    st.success("✅ Changes saved successfully!")
+    st.success(" Changes saved successfully!")
     st.rerun()
 
 df = edited_df.copy()
@@ -133,7 +137,7 @@ product_sales = (
 st.dataframe(product_sales, use_container_width=True)
 
 st.markdown("---")
-st.header("🔮 Future Sales Prediction")
+st.header(" Future Sales Prediction")
 
 future_months = st.slider("Select months to forecast", 1, 12, 6)
 
