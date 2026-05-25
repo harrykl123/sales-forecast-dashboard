@@ -13,17 +13,16 @@ st.set_page_config(
     layout="wide"
 )
 
-
 FILE_PATH = "data/superstore.csv"
 os.makedirs("data", exist_ok=True)
 
-st.title(" Sales Forecasting and Business Intelligence Dashboard")
+st.title("Sales Forecasting and Business Intelligence Dashboard")
 st.write("Predict future sales and analyze business performance using Machine Learning.")
 
 df = load_data()
 
 st.markdown("---")
-st.header(" Editable Sales Data")
+st.header("Editable Sales Data")
 
 edited_df = st.data_editor(
     df,
@@ -32,9 +31,9 @@ edited_df = st.data_editor(
     key="sales_editor"
 )
 
-if st.button(" Save Changes"):
+if st.button("Save Changes"):
     edited_df.to_csv(FILE_PATH, index=False)
-    st.success(" Changes saved successfully!")
+    st.success("Changes saved successfully!")
     st.rerun()
 
 df = edited_df.copy()
@@ -134,7 +133,7 @@ product_sales = (
 st.dataframe(product_sales, use_container_width=True)
 
 st.markdown("---")
-st.header(" Future Sales Prediction")
+st.header("Future Sales Prediction")
 
 future_months = st.slider("Select months to forecast", 1, 12, 6)
 
@@ -149,27 +148,43 @@ else:
     model = joblib.load(model_path)
     features = joblib.load(features_path)
 
-    last_row = monthly.iloc[-1]
+    last_date = df["Order Date"].max()
     future_rows = []
 
     for i in range(1, future_months + 1):
-        future_date = last_row["Order Date"] + pd.DateOffset(months=i)
+        future_date = last_date + pd.DateOffset(months=i)
 
-        future_rows.append({
+        row = {
             "Month": future_date.month,
             "Year": future_date.year,
-            "Month_Index": int(last_row["Month_Index"]) + i,
-            "Profit": monthly["Profit"].mean(),
-            "Quantity": monthly["Quantity"].mean(),
-            "Discount": monthly["Discount"].mean()
-        })
+            "Day": future_date.day,
+            "Weekday": future_date.weekday(),
+            "Month_Index": len(monthly) + i,
+            "Profit": df["Profit"].mean(),
+            "Quantity": df["Quantity"].mean(),
+            "Discount": df["Discount"].mean(),
+            "Category": 0,
+            "Sub-Category": 0,
+            "Segment": 0,
+            "Region": 0,
+            "Product Name": 0
+        }
+
+        future_rows.append(row)
 
     future_df = pd.DataFrame(future_rows)
+
+    for col in features:
+        if col not in future_df.columns:
+            future_df[col] = 0
+
+    future_df = future_df[features]
     future_df = future_df.replace([np.inf, -np.inf], np.nan).fillna(0)
 
-    future_df["Predicted Sales"] = model.predict(future_df[features])
+    future_df["Predicted Sales"] = model.predict(future_df)
+
     future_df["Date"] = [
-        last_row["Order Date"] + pd.DateOffset(months=i)
+        last_date + pd.DateOffset(months=i)
         for i in range(1, future_months + 1)
     ]
 
