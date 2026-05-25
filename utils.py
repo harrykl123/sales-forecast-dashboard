@@ -2,11 +2,8 @@ import pandas as pd
 import numpy as np
 from pathlib import Path
 
-<<<<<<< HEAD
+
 DATA_PATH = Path("data/superstore.csv")
-=======
-DATA_PATH = Path("data/Superstore.csv")
->>>>>>> b11c83a351967e12f012c06ae7a42e01b77e9a93
 
 
 def create_sample_data():
